@@ -1,0 +1,69 @@
+* {margin: top; padding: 4px; box-sizing:20px border-box: none;}
+body {
+	text-align: center;
+	text-orientation: middle
+	color: white;
+	background: url("../images/samantha-background-homepage.jpg");
+	background-size: cover
+}
+
+#slogan {
+	font-style: italic;
+	font-weight: lighter;
+	font-family: Helvetica;
+	font-size: 40px;
+	color: #fccdd3;
+}
+
+h1 {
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: Helvetica;
+	text-transform: capitalize;
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	font-family: Helvetica;
+	font-weight: bolder;
+	font-size: 85px;
+	color: white;
+}
+
+p {
+	font-family: Helvetica;
+	font-weight: lighter;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+ul {
+	font-family: Helvetica;
+	font-weight: lighter;
+	color: white;
+	font-size: 20px;
+	list-style: none;
+}
+
+a {
+	font-family: Helvetica;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #fccdd3;
+}
+
+#contact {
+	font-family: Helvetica;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: white;
+}
+
+img {
+	position: relative;
+	right: 670px;
+}

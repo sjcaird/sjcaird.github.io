@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Samantha Caird Graphic Designer</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<img src="images/chat-creative.png" alt="chat-creative logo" title="chat creative logo">
+	<h1>Samantha Caird</h1>
+	<h2>Graphic Designer</h2>
+	<p id="slogan">I create, design and transform</p>
+	<p>The importance of a brand, how it starts, where it comes from and the overwhelming possibilities of it's future is a terriorty I thrive in. From small start ups to large corporations i've got it covered. Ensure your next brand venture, campaign, presentation or social media presence is going in the right direction with the right visual voice.</p>
+	<ul>
+		<li>Branding</li>
+		<li>Graphic Design</li>
+		<li>Infographic Design</li>
+		<li>Presentation Design</li>
+		<li>Social Media</li>
+	</ul>
+	<p id="contact">Contact me: <a href="mailto:sjcaird@gmail.com">Samantha Caird</a>
+	</p>
+</body>
+
+</html>
