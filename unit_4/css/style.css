@@ -33,48 +33,6 @@ section{
 	padding: 40px 0;
 }
 
-#slogan {
-	font-family: 'Montserrat', 'Arial', sans-serif;
-	font-style: normal;
-	font-weight: 900;
-	font-size: 3em;
-	text-align: center;
-	margin: 1em auto;
-}
-
-#slogan span {
-	color: #6535ff;
-}
-
-#landing{
-	background:url(../images/samantha-background-homepage.jpg) no-repeat center center scroll;
-	background-size: cover;
-	height: 750px;
-	padding: 20px 0;
-}
-
-.navlinks{
-	font-family: 'Josefin Slab', 'Times New Roman', serif;
-	font-weight: 300;
-	font-style: normal;
-	font-size: 16px;
-	color: #fff;
-	text-transform: lowercase;
-	letter-spacing: 2px;
-	
-
-	padding: 20px;
-
-/*	padding-top: 10px;
-	padding-right: 40px;
-	padding-bottom: 20px;
-	padding-left: 40px;*/
-
-
-	margin: 0 20px;
-    border: none;
-}
-
 h1 {
 	font-family: 'Josefin Slab', 'Times New Roman', serif;
 	font-weight: 300;
@@ -165,6 +123,64 @@ img {
 	right: 600px;*/
 }
 
+a {
+	text-decoration: none;
+	color: white;
+	border-bottom: 1px solid white;
+	padding-bottom: 2px;
+	letter-spacing: 0.5px;
+}
+
+footer {
+	color: #fccdd3;
+	padding: 50px 0;
+	text-align: center;
+	background-color: #6535ff;
+	padding: 10px;
+}
+
+#slogan {
+	font-family: 'Montserrat', 'Arial', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 3em;
+	text-align: center;
+	margin: 1em auto;
+}
+
+#slogan span {
+	color: #6535ff;
+}
+
+#landing{
+	background:url(../images/samantha-background-homepage.jpg) no-repeat center center scroll;
+	background-size: cover;
+	height: 750px;
+	padding: 20px 0;
+}
+
+.navlinks{
+	font-family: 'Josefin Slab', 'Times New Roman', serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 16px;
+	color: #fff;
+	text-transform: lowercase;
+	letter-spacing: 2px;
+	
+
+	padding: 20px;
+
+/*	padding-top: 10px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	padding-left: 40px;*/
+
+
+	margin: 0 20px;
+    border: none;
+}
+
 .qt{
  	width:1em;
  	margin:2em auto;
@@ -205,20 +221,4 @@ img {
 	color: white;
 	text-align: center;
 	letter-spacing: 0.5px;
-}
-
-a {
-	text-decoration: none;
-	color: white;
-	border-bottom: 1px solid white;
-	padding-bottom: 2px;
-	letter-spacing: 0.5px;
-}
-
-footer {
-	color: #fccdd3;
-	padding: 50px 0;
-	text-align: center;
-	background-color: #6535ff;
-	padding: 10px;
 }
