@@ -33,17 +33,6 @@ section{
 	padding: 40px 0;
 }
 
-li{
-	font-family: 'Montserrat', 'Arial', sans-serif;
-	font-weight: 900;
-	font-style: 900;
-	font-size: 1.5em;
-	color: #f59ea9;
-	letter-spacing: 0.5px;
-	text-align: center;
-	margin: 1em auto;
-}
-
 #slogan {
 	font-family: 'Montserrat', 'Arial', sans-serif;
 	font-style: normal;
@@ -62,6 +51,28 @@ li{
 	background-size: cover;
 	height: 750px;
 	padding: 20px 0;
+}
+
+.navlinks{
+	font-family: 'Josefin Slab', 'Times New Roman', serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 16px;
+	color: #fff;
+	text-transform: lowercase;
+	letter-spacing: 2px;
+	
+
+	padding: 20px;
+
+/*	padding-top: 10px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	padding-left: 40px;*/
+
+
+	margin: 0 20px;
+    border: none;
 }
 
 h1 {
@@ -135,53 +146,18 @@ p {
 ul{
 	list-style: none;
 	margin: 0.5em auto;
+	line-height: 1em;
 }
 
-a {
-	text-decoration: none;
-	color: white;
-	border-bottom: 1px solid white;
-	padding-bottom: 2px;
-	letter-spacing: 0.5px;
-}
-
-footer{
-	color: #fccdd3;
-	padding: 50px 0;
-	text-align: center;
-	background-color: #6535ff;
-	padding: 10px;
-}
-
-.navlinks{
-	font-family: 'Josefin Slab', 'Times New Roman', serif;
-	font-weight: 300;
-	font-style: normal;
-	font-size: 16px;
-	color: #fff;
-	text-transform: lowercase;
-	letter-spacing: 2px;
-	
-
-	padding: 20px;
-
-/*	padding-top: 10px;
-	padding-right: 40px;
-	padding-bottom: 20px;
-	padding-left: 40px;*/
-
-
-	margin: 0 20px;
-    border: none;
-}
-
-#contact {
+li{
 	font-family: 'Montserrat', 'Arial', sans-serif;
-	font-weight: bold;
-	font-size: 20px;
-	color: white;
-	text-align: center;
+	font-weight: 900;
+	font-style: 900;
+	font-size: 1.5em;
+	color: #f59ea9;
 	letter-spacing: 0.5px;
+	text-align: center;
+	margin: 1em auto;
 }
 
 img {
@@ -220,4 +196,29 @@ img {
 #portfolio div {
 	width: 33.33%;
 	float:left;
+}
+
+#contact {
+	font-family: 'Montserrat', 'Arial', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	letter-spacing: 0.5px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	border-bottom: 1px solid white;
+	padding-bottom: 2px;
+	letter-spacing: 0.5px;
+}
+
+footer {
+	color: #fccdd3;
+	padding: 50px 0;
+	text-align: center;
+	background-color: #6535ff;
+	padding: 10px;
 }
