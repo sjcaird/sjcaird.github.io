@@ -8,43 +8,47 @@
 }
 
 body {
-		font-size: 16px; /*1em = 16px*/
-		text-align: center;
-		line-height: 1.5;
-		position: relative;
+	font-size: 16px; /*1em = 16px*/
+	text-align: center;
+	line-height: 1.5;
+	position: relative;
 }
 
 header {
-		background-color: #FEED74;
-		border: 1px black solid;
-		padding: 20px 0;
+	background-color: #FEED74;
+	border: 1px black solid;
+	padding: 20px 0;
 }
 
 nav {
-		margin: auto;
-		background-color: #E8C66A;
-		border: 1px black solid;
-		padding: 20px;
+	margin: auto;
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav a:hover {
+	background-color: #6535ff;
 }
 
 main {
-		background-color: #fccdd3;
-		color: black;
-		padding:20px 0;
-		text-align: left;
-		position: relative;
+	background-color: #fccdd3;
+	color: black;
+	padding:20px 0;
+	text-align: left;
+	position: relative;
 }
 
 section {
-		background-color: #FFE2B8;
-		border: 1px black solid;
-		padding: 20px;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 article { 
-		background-color: #E89C6C;
-    	border: 1px black solid;
-    	padding: 20px;
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 h1 {
@@ -92,7 +96,7 @@ h5 {
 
 }
 
-hr{
+hr {
 	border: none;
 	height: 3px;
 	background-color: white;
@@ -146,6 +150,7 @@ a {
 }
 
 footer {
+	clear: both;
 	background-color: #FF957E;
 	border: 1px black solid;
 	padding: 20px;
@@ -164,7 +169,7 @@ footer {
 	color: #6535ff;
 }
 
-#landing{
+#landing {
 	background:url(../images/samantha-background-homepage.jpg) no-repeat center center scroll;
 	background-size: cover;
 	height: 750px;
@@ -234,4 +239,11 @@ footer {
 	text-align: center;
 	letter-spacing: 0.5px;
 }
+
+#wrapper {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
