@@ -141,8 +141,8 @@ a {
 
 footer {
 	clear: both;
-	background-color: #FF957E;
-	border: 1px black solid;
+	background-color: #6535ff;
+	border: none;
 	padding: 20px;
 }
 
@@ -207,4 +207,12 @@ footer {
 }
 #services {
 	background:#fccdd3;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
 }
