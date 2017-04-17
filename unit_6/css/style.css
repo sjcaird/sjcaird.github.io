@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,900');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400');
+
+*{ 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px; /*1em = 16px*/
+	text-align: center;
+	line-height: 1.5;
+	position: relative;
+}
+section {
+	padding:5em 0;
+}
+header img{
+	float:left;
+	margin: 1em;
+}
+
+nav {
+	float:right;
+	margin: .5em;
+}
+.navlinks{
+	font-family: 'Montserrat', 'Arial', sans-serif;
+	font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: 4.5px;
+	font-size: 0.75em;
+	color: #fccdd3;
+	padding: 1em;
+	display:inline-block;
+	margin: 0 20px;
+	border: none;
+}
+nav a:hover {
+	color: white;
+}
+
+h1 {
+	font-family: 'Montserrat', 'Arial', sans-serif;
+	font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: 4.5px;
+	font-size: 1em;
+	text-align: center;
+	color: white;
+	margin: 200px 0 0;
+
+}
+
+#landing h2 {
+	font-family: 'Montserrat', 'Arial', sans-serif;
+	font-weight: 1000;
+	font-style: 900;
+	font-size: 80px;
+	color: white;
+}
+
+h2 {
+	font-family: 'Montserrat', 'Arial', sans-serif;
+	font-weight: 900;
+	font-style: 900;
+	font-size: 3em;
+	color: #6535ff;
+	line-height: 1em;
+}
+
+h3 {
+	font-family: 'Montserrat', 'Arial', sans-serif;
+	font-weight: 900;
+	font-style: 900;
+	font-size: 2em;
+	color: #6e6e6e;
+}
+
+h4 {
+	font-family: 'Montserrat', 'Arial', sans-serif;
+	font-weight: 200;
+	font-style: 200;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: .75em;
+	color: #6e6e6e;
+	padding-bottom: 10px;
+
+}
+
+h5 {
+	font-family: 'Montserrat', 'Arial', sans-serif;
+	font-weight: 200;
+	font-style: 200;
+	font-size: 1em;
+	color: #6e6e6e;	
+}
+
+hr {
+	border: none;
+	height: 3px;
+	background-color: white;
+	width: 2em;
+	margin: 1em auto;
+}
+
+p {
+	font-family: 'Montserrat', 'Arial', sans-serif;
+	font-size:1em;
+	font-style: 200;
+	text-align: left;
+	line-height: 1.5em;
+	width: 40em;
+	margin: 0.5em auto;
+	color: #6e6e6e;
+
+
+	/*width: 35em;
+	text-align: left;
+	position: relative; */
+}
+
+ul{
+	list-style: none;
+	margin: 0.5em auto;
+	line-height: 1em;
+}
+
+li{
+	font-family: 'Montserrat', 'Arial', sans-serif;
+	font-weight: 900;
+	font-style: 900;
+	font-size: 1em;
+	color: #f59ea9;
+	letter-spacing: 0.5px;
+	text-align: center;
+	margin: 1em auto;
+	float: left;
+	padding: 15px;
+}
+
+img {
+	/*position: relative;
+	right: 600px;*/
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	border-bottom: 1px solid white;
+	padding-bottom: 2px;
+	letter-spacing: 0.5px;
+}
+
+footer {
+	clear: both;
+	background-color: #6e6e6e;
+	border: none;
+	padding: 20px;
+}
+
+#slogan {
+	font-family: 'Montserrat', 'Arial', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 3em;
+	text-align: left;
+	margin: 1em auto;
+	padding: 15px;
+	color: #525050;
+}
+
+#slogan span {
+	color: #6535ff;
+}
+
+#landing {
+	background:url(../images/samantha-background-homepage.jpg) no-repeat center center scroll;
+	background-size: cover;
+	height: 750px;
+	padding: 20px 0;
+}
+.qt{
+ 	width:1em;
+ 	margin:2em auto;
+ 	padding: .5em;
+ 	background-color: white;
+}
+
+.kayla{
+ 	width:1em;
+ 	margin:2em auto;
+ 	padding: .5em;
+ 	background-color: white;
+}
+
+.urbis{
+ 	width:1em;
+ 	margin:2em auto;
+ 	padding: .5em;	
+ 	background-color: white;
+}
+
+#portfolio {
+	color: #F1E9E4;
+	margin: 2em auto;
+}
+
+#portfolio img {
+	width: 100%;
+}
+
+#portfolio div {
+	width: 33.33%;
+	float:left;
+}
+
+#contact {
+	font-family: 'Montserrat', 'Arial', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #fccdd3;
+	text-align: center;
+	letter-spacing: 0.5px;
+}
+#services {
+	background:#fccdd3;
+	border: none;
+	padding: 20px;
+}
+
+#left {
+	background:	#fccdd3;
+	border: none;
+	padding: 20px;
+	float: left;
+	width: 33%;
+}
+
+#right {
+	background:#fccdd3;
+	border: none;
+	padding: 20px;
+	float: right;
+	width: 66%;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
