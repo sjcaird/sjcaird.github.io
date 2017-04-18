@@ -31,12 +31,13 @@ nav {
 	text-transform: uppercase;
 	letter-spacing: 4.5px;
 	font-size: 0.75em;
-	color: #fccdd3;
+	color: #f69fac;
 	padding: 1em;
 	display:inline-block;
 	margin: 0 20px;
 	border: none;
 }
+
 nav a:hover {
 	color: white;
 }
@@ -66,7 +67,7 @@ h2 {
 	font-weight: 900;
 	font-style: 900;
 	font-size: 3em;
-	color: #6535ff;
+	color: rgba(0,0,0,.6);
 	line-height: 1em;
 }
 
@@ -75,7 +76,8 @@ h3 {
 	font-weight: 900;
 	font-style: 900;
 	font-size: 2em;
-	color: #6e6e6e;
+	color: rgba(0,0,0,.6);
+	text-align: left;
 }
 
 h4 {
@@ -84,18 +86,12 @@ h4 {
 	font-style: 200;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	font-size: .75em;
-	color: #6e6e6e;
-	padding-bottom: 10px;
-
-}
-
-h5 {
-	font-family: 'Montserrat', 'Arial', sans-serif;
-	font-weight: 200;
-	font-style: 200;
 	font-size: 1em;
-	color: #6e6e6e;	
+	color: rgba(0,0,0,.6);
+	padding-bottom: 10px;
+	text-align: left;
+
+
 }
 
 hr {
@@ -108,15 +104,12 @@ hr {
 
 p {
 	font-family: 'Montserrat', 'Arial', sans-serif;
-	font-size:1em;
+	font-size: 1.10em;
 	font-style: 200;
 	text-align: left;
 	line-height: 1.5em;
-	width: 40em;
-	margin: 1em auto;
 	padding: 15px;
-	color: #6e6e6e;
-
+	color: rgba(0,0,0,.6);
 
 	/*width: 35em;
 	text-align: left;
@@ -127,19 +120,6 @@ ul{
 	list-style: none;
 	margin: 0.5em auto;
 	line-height: 1em;
-}
-
-li{
-	font-family: 'Montserrat', 'Arial', sans-serif;
-	font-weight: 900;
-	font-style: 900;
-	font-size: 1em;
-	color: #f59ea9;
-	letter-spacing: 0.5px;
-	text-align: center;
-	margin: 1em auto;
-	float: left;
-	padding: 15px;
 }
 
 img {
@@ -157,7 +137,7 @@ a {
 
 footer {
 	clear: both;
-	background-color: #6e6e6e;
+	background-color: #8a45c0;
 	border: none;
 	padding: 20px;
 }
@@ -168,13 +148,12 @@ footer {
 	font-weight: 900;
 	font-size: 3em;
 	text-align: left;
-	margin: 1em auto;
 	padding: 15px;
-	color: #525050;
+	color: rgba(0,0,0,.6);
 }
 
 #slogan span {
-	color: #6535ff;
+	color: #8a45c0;
 }
 
 #landing {
@@ -222,30 +201,35 @@ footer {
 	font-family: 'Montserrat', 'Arial', sans-serif;
 	font-weight: bold;
 	font-size: 20px;
-	color: #fccdd3;
+	color: #f69fac;
 	text-align: center;
 	letter-spacing: 0.5px;
 }
+
+#wrapper {
+	height: 100%
+}
+
 #services {
-	background:#fccdd3;
+	background: #f69fac;
 	border: none;
 	padding: 20px;
 }
 
 #left {
-	background:	#fccdd3;
+	background:	#f69fac;
 	border: none;
 	padding: 20px;
 	float: left;
-	width: 33%;
+	width: 33.33%;
 }
 
 #right {
-	background:#fccdd3;
+	background: #f69fac;
 	border: none;
 	padding: 20px;
-	float: right;
-	width: 66%;
+	float: left;
+	width: 66.66%;
 }
 
 .clearfix:after { 
