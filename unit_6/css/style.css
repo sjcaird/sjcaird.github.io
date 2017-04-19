@@ -13,9 +13,11 @@ body {
 	line-height: 1.5;
 	position: relative;
 }
+
 section {
 	padding:5em 0;
 }
+
 header img{
 	float:left;
 	margin: 1em;
@@ -114,12 +116,6 @@ p {
 	/*width: 35em;
 	text-align: left;
 	position: relative; */
-}
-
-ul{
-	list-style: none;
-	margin: 0.5em auto;
-	line-height: 1em;
 }
 
 img {
