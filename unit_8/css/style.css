@@ -342,7 +342,12 @@ footer {
 }
 
 @media screen and (max-width:480px){
-	
+	#landing {
+	background:url(../images/samantha-background-homepage-flip.jpg) left center no-repeat;
+	background-size: cover;
+	height: 480px;
+	padding: 20px 0;
+	}
 }
 
 
