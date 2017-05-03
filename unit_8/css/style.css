@@ -341,9 +341,9 @@ footer {
 	}
 }
 
-@media screen and (max-width:320px) and (device-height: 568px){
+@media screen and (max-width:480px){
 	#landing {
-	height: 568px;
+		height: auto;
 	}
 }
 
