@@ -257,18 +257,6 @@ footer {
    clear: both;
 }
 
-@media screen and (max-width:1200px){
-	#portfolio img {
-		width: 100%;
-		display: block;
-	}
-
-	#portfolio > div {
-		width: 50%;
-		float: left;
-	}
-}
-
 @media screen and (max-width:1024px){
 	#left {
 		width: 100%;
