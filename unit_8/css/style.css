@@ -347,4 +347,10 @@ footer {
 	}
 }
 
+@media screen and (max-width:375px){
+	#landing {
+		height: 100%
+	}
+}
+
 
