@@ -289,7 +289,30 @@ footer {
 	}
 
 	p {
-		text-align: left;
+		text-align: left;	
+	}
+
+	.hover-img .hover-el {
+	background-color: transparent;
+	color: black;
+	position: relative;
+	width: 100%;
+	height: auto;
+	top: 0px;
+	left: 0px;
+	padding: 10px;
+	display: block;
+	}
+
+	.hover-img .hover-el h3 {
+	text-align: left;
+	color: black;
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+	left: 0;
+    right: 0;
+    padding: 0px;
 	}
 }
 
@@ -340,9 +363,19 @@ footer {
 	}
 }
 
-@media screen and (max-width: 667px)  {  
+@media screen and (max-width: 667px) {
 	.navlinks{
 	color: #f69fac;
+	}
+
+	#slogan {
+		text-align: left;
+		padding: 5px;
+	}
+
+	p {
+		text-align: left;
+		padding: 5px;	
 	}
 }
 
