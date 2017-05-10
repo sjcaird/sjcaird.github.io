@@ -258,7 +258,7 @@ footer {
 }
 
 @media screen and (max-width:1200px){
-		#portfolio img {
+	#portfolio img {
 		width: 100%;
 		display: block;
 	}
@@ -281,51 +281,42 @@ footer {
 	}
 
 	#landing h2 {
-	font-size: 65px;
+		font-size: 70px;
 	}
 
 	#slogan {
-		text-align: left;
+		text-align: center;
 	}
 
 	p {
-		text-align: left;	
+		text-align: center;	
 	}
 
 	.hover-img .hover-el {
-	background-color: transparent;
-	color: black;
-	position: relative;
-	width: 100%;
-	height: auto;
-	top: 0px;
-	left: 0px;
-	padding: 10px;
-	display: block;
+		background-color: transparent;
+		color: black;
+		position: relative;
+		width: 100%;
+		height: auto;
+		top: 0px;
+		left: 0px;
+		padding: 10px;
+		display: block;
 	}
 
 	.hover-img .hover-el h3 {
-	text-align: left;
-	color: black;
-	position: relative;
-	bottom: 0px;
-	width: 100%;
-	left: 0;
-    right: 0;
-    padding: 0px;
+		text-align: left;
+		color: black;
+		position: relative;
+		bottom: 0px;
+		width: 100%;
+		left: 0;
+    	right: 0;
+    	padding: 0px;
 	}
 }
 
 @media screen and (max-width:768px){
-	/*nav {
-		float: none;
-	}
-
-	header img {
-		float: none;
-		margin: 0 auto;
-	}*/
-
 	header {
 		position: absolute;
 		top: 0
@@ -334,10 +325,10 @@ footer {
 	}
 
 	#landing {
-	background:url(../images/samantha-background-homepage-flip_gradiant2.jpg) left center no-repeat;
-	background-size: cover;
-	height: 750px;
-	padding: 20px 0;
+		background:url(../images/samantha-background-homepage-flip_gradiant2.jpg) left center no-repeat;
+		background-size: cover;
+		height: 750px;
+		padding: 20px 0;
 
 	}
 
@@ -359,24 +350,46 @@ footer {
 	}
 
 	.navlinks{
-	color: white;
+		color: white;
 	}
 }
 
 @media screen and (max-width: 667px) {
 	.navlinks{
-	color: #f69fac;
+		color: #f69fac;
 	}
 
+	#landing h2 {
+		text-align: center;
+		margin: .5px;
+	}
+
+	h2 {
+		text-align: left;
+		padding: 5px;
+		margin: 20px;
+	}
+	
 	#slogan {
 		text-align: left;
 		padding: 5px;
+	}
+
+	#left {
+		padding: 0px;
 	}
 
 	p {
 		text-align: left;
 		padding: 5px;	
 	}
+}
+
+@media screen and (max-width: 320px) {
+	#landing h2 {
+		font-size: 55px;
+	}
+
 }
 
 
